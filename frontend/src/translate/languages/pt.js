@@ -18,14 +18,14 @@ const messages = {
         },
       },
       login: {
-        title: "Login",
+        title: "Já possui conta? Login!",
         form: {
           email: "Email",
           password: "Senha",
         },
         buttons: {
           submit: "Entrar",
-          register: "Cadastro de clientes",
+          register: "Ainda não possui conta? Cadastre-se!",
         },
       },
       companies: {
@@ -44,7 +44,7 @@ const messages = {
         },
         token: "Token",
       },
-      Painel: {
+      dashboard: {
         charts: {
           perDay: {
             title: "Chamados hoje: ",
@@ -307,7 +307,7 @@ const messages = {
       },
       mainDrawer: {
         listItems: {
-          Painel: "Painel",
+          dashboard: "Painel",
           connections: "Autenticação",
           tickets: "Chamados",
           quickMessages: "Respostas",
