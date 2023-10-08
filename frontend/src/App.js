@@ -37,7 +37,7 @@ const App = () => {
                 },
                 "&::-webkit-scrollbar-thumb": {
                     boxShadow: 'inset 0 0 6px rgba(0, 0, 0, 0.3)',
-                    backgroundColor: "#5001b3",
+                    backgroundColor: "#25d366",
                 },
             },
             scrollbarStylesSoft: {
@@ -50,7 +50,7 @@ const App = () => {
             },
             palette: {
                 type: mode,
-                primary: { main: "#5001b3" },
+                primary: { main: "#25d366" },
                 textPrimary: mode === "light" ? "#2DDD7F" : "#FFFFFF",
                 borderPrimary: mode === "light" ? "#2DDD7F" : "#FFFFFF",
                 dark: { main: mode === "light" ? "#333333" : "#F3F3F3" },
@@ -73,7 +73,7 @@ const App = () => {
                 total: mode === "light" ? "#fff" : "#222",
                 messageIcons: mode === "light" ? "grey" : "#F3F3F3",
                 inputBackground: mode === "light" ? "#FFFFFF" : "#333",
-                barraSuperior: mode === "light" ? "linear-gradient(to right, #5001b3, #5001b3, #5001b3)" : "#666",
+                barraSuperior: mode === "light" ? "linear-gradient(to right, #25d366, #25d366, #25d366)" : "#666",
 				boxticket: mode === "light" ? "#EEE" : "#666",
 				campaigntab: mode === "light" ? "#ededed" : "#666",
             },

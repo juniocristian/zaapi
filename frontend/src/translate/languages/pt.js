@@ -4,7 +4,7 @@ const messages = {
       signup: {
         title: "Cadastre-se",
         toasts: {
-          success: "Usuário criado com sucesso! Faça seu login!!!.",
+          success: "Usuário criado com sucesso!",
           fail: "Erro ao criar usuário. Verifique os dados informados.",
         },
         form: {
@@ -14,7 +14,7 @@ const messages = {
         },
         buttons: {
           submit: "Cadastrar",
-          login: "Já tem uma conta? Entre!",
+          login: "Login",
         },
       },
       login: {
@@ -25,7 +25,7 @@ const messages = {
         },
         buttons: {
           submit: "Entrar",
-          register: "Não tem um conta? Cadastre-se!",
+          register: "Cadastro de clientes",
         },
       },
       companies: {
@@ -44,15 +44,15 @@ const messages = {
         },
         token: "Token",
       },
-      dashboard: {
+      Painel: {
         charts: {
           perDay: {
-            title: "Atendimentos hoje: ",
+            title: "Chamados hoje: ",
           },
         },
       },
       connections: {
-        title: "Conexões",
+        title: "Autenticação",
         toasts: {
           deleted: "Conexão com o WhatsApp excluída com sucesso!",
         },
@@ -129,7 +129,7 @@ const messages = {
           deleteTitle: "Deletar ",
           importTitlte: "Importar contatos",
           deleteMessage:
-            "Tem certeza que deseja deletar este contato? Todos os atendimentos relacionados serão perdidos.",
+            "Tem certeza que deseja deletar este contato? Todos os Chamados relacionados serão perdidos.",
           importMessage: "Deseja importar todos os contatos do telefone?",
         },
         buttons: {
@@ -307,12 +307,12 @@ const messages = {
       },
       mainDrawer: {
         listItems: {
-          dashboard: "Dashboard",
-          connections: "Conexões",
-          tickets: "Atendimentos",
-          quickMessages: "Respostas Rápidas",
+          Painel: "Painel",
+          connections: "Autenticação",
+          tickets: "Chamados",
+          quickMessages: "Respostas",
           contacts: "Contatos",
-          queues: "Filas & Chatbot",
+          queues: "Chatbot",
           tags: "Tags",
           administration: "Administração",
           users: "Usuários",
@@ -350,7 +350,7 @@ const messages = {
         noTickets: "Nenhuma notificação.",
       },
       quickMessages: {
-        title: "Respostas Rápidas",
+        title: "Respostas",
         buttons: {
           add: "Nova Resposta",
         },
@@ -360,7 +360,7 @@ const messages = {
         },
       },
       contactLists: {
-        title: "Listas de Contatos",
+        title: "Contatos",
         table: {
           name: "Nome",
           contacts: "Contatos",
@@ -427,7 +427,7 @@ const messages = {
         searchPlaceholder: "Pesquisa",
         buttons: {
           add: "Nova Campanha",
-          contactLists: "Listas de Contatos",
+          contactLists: "Contatos",
         },
         table: {
           name: "Nome",
@@ -532,7 +532,7 @@ const messages = {
         title: "Configurações de Campanhas",
       },
       queues: {
-        title: "Filas & Chatbot",
+        title: "Chatbot",
         table: {
           name: "Nome",
           color: "Cor",
@@ -545,7 +545,7 @@ const messages = {
         confirmationModal: {
           deleteTitle: "Excluir",
           deleteMessage:
-            "Você tem certeza? Essa ação não pode ser revertida! Os atendimentos dessa fila continuarão existindo, mas não terão mais nenhuma fila atribuída.",
+            "Você tem certeza? Essa ação não pode ser revertida! Os Chamados dessa fila continuarão existindo, mas não terão mais nenhuma fila atribuída.",
         },
       },
       queueSelect: {
@@ -688,18 +688,18 @@ const messages = {
       backendErrors: {
         ERR_NO_OTHER_WHATSAPP: "Deve haver pelo menos um WhatsApp padrão.",
         ERR_NO_DEF_WAPP_FOUND:
-          "Nenhum WhatsApp padrão encontrado. Verifique a página de conexões.",
+          "Nenhum WhatsApp padrão encontrado. Verifique a página de Autenticação.",
         ERR_WAPP_NOT_INITIALIZED:
-          "Esta sessão do WhatsApp não foi inicializada. Verifique a página de conexões.",
+          "Esta sessão do WhatsApp não foi inicializada. Verifique a página de Autenticação.",
         ERR_WAPP_CHECK_CONTACT:
-          "Não foi possível verificar o contato do WhatsApp. Verifique a página de conexões",
+          "Não foi possível verificar o contato do WhatsApp. Verifique a página de Autenticação",
         ERR_WAPP_INVALID_CONTACT: "Este não é um número de Whatsapp válido.",
         ERR_WAPP_DOWNLOAD_MEDIA:
-          "Não foi possível baixar mídia do WhatsApp. Verifique a página de conexões.",
+          "Não foi possível baixar mídia do WhatsApp. Verifique a página de Autenticação.",
         ERR_INVALID_CREDENTIALS:
           "Erro de autenticação. Por favor, tente novamente.",
         ERR_SENDING_WAPP_MSG:
-          "Erro ao enviar mensagem do WhatsApp. Verifique a página de conexões.",
+          "Erro ao enviar mensagem do WhatsApp. Verifique a página de Autenticação.",
         ERR_DELETE_WAPP_MSG: "Não foi possível excluir a mensagem do WhatsApp.",
         ERR_OTHER_OPEN_TICKET: "Já existe um tíquete aberto para este contato.",
         ERR_SESSION_EXPIRED: "Sessão expirada. Por favor entre.",
