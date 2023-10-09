@@ -144,7 +144,7 @@ const useStyles = makeStyles((theme) => ({
 
   ticketQueueColor: {
     flex: "none",
-    width: "8px",
+    width: "4px",
     height: "100%",
     position: "absolute",
     top: "0%",
