@@ -262,9 +262,9 @@ const messages = {
           message: "Mensagem de",
         },
         tabs: {
-          open: { title: "Abertas" },
-          closed: { title: "Resolvidos" },
-          search: { title: "Busca" },
+          open: { title: "Aberto" },
+          closed: { title: "Resolvido" },
+          search: { title: "Buscar" },
         },
         search: {
           placeholder: "Buscar atendimento e mensagens",
