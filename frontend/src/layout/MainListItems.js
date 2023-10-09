@@ -323,7 +323,7 @@ const MainListItems = (props) => {
                       <ListItemIcon>
                         <PeopleIcon />
                       </ListItemIcon>
-                      <ListItemText primary="Listas de Contatos" />
+                      <ListItemText primary="Listas" />
                     </ListItem>
                     <ListItem
                       onClick={() => history.push("/campaigns-config")}

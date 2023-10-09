@@ -289,7 +289,7 @@ const Dashboard = () => {
           <Grid item xs={12} sm={6} md={4}>
             <CardCounter
               icon={<GroupIcon fontSize="inherit" />}
-              title="Atd. Pendentes"
+              title="Pendentes"
               value={counters.supportPending}
               loading={loading}
             />
@@ -297,7 +297,7 @@ const Dashboard = () => {
           <Grid item xs={12} sm={6} md={4}>
             <CardCounter
               icon={<GroupIcon fontSize="inherit" />}
-              title="Atd. Acontecendo"
+              title="Acontecendo"
               value={counters.supportHappening}
               loading={loading}
             />
@@ -305,7 +305,7 @@ const Dashboard = () => {
           <Grid item xs={12} sm={6} md={4}>
             <CardCounter
               icon={<AssignmentIcon fontSize="inherit" />}
-              title="Atd. Realizados"
+              title="Realizados"
               value={counters.supportFinished}
               loading={loading}
             />
@@ -321,7 +321,7 @@ const Dashboard = () => {
           <Grid item xs={12} sm={6} md={4}>
             <CardCounter
               icon={<SpeedIcon fontSize="inherit" />}
-              title="T.M. de Atendimento"
+              title="Tempo de contato"
               value={formatTime(counters.avgSupportTime)}
               loading={loading}
             />
@@ -329,7 +329,7 @@ const Dashboard = () => {
           <Grid item xs={12} sm={6} md={4}>
             <CardCounter
               icon={<SpeedIcon fontSize="inherit" />}
-              title="T.M. de Espera"
+              title="Tempo de espera"
               value={formatTime(counters.avgWaitTime)}
               loading={loading}
             />
