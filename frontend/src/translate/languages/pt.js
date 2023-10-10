@@ -572,7 +572,7 @@ const messages = {
         },
       },
       helps: {
-        title: "Central de Ajuda",
+        title: "Central de ajuda",
       },
       schedules: {
         title: "Agendamentos",
