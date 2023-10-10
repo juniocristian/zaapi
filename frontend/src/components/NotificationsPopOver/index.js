@@ -245,8 +245,8 @@ const NotificationsPopOver = ({ volume }) => {
           horizontal: "right",
         }}
         transformOrigin={{
-          vertical: "top",
-          horizontal: "right",
+          vertical: "top" 10,
+          horizontal: "right" -22,
         }}
         classes={{ paper: classes.popoverPaper }}
         onClose={handleClickAway}

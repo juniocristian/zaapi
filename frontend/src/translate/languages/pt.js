@@ -14,7 +14,7 @@ const messages = {
         },
         buttons: {
           submit: "Cadastrar",
-          login: "Login",
+          login: "Possui conta? Login.",
         },
       },
       login: {
