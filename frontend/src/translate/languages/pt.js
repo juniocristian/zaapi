@@ -314,7 +314,7 @@ const messages = {
           contacts: "Contatos",
           queues: "Chatbot",
           tags: "Tags",
-          administration: "Painel de administração",
+          administration: "Administração",
           users: "Usuários",
           settings: "Configurações",
           helps: "Ajuda",
