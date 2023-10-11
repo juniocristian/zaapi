@@ -178,7 +178,7 @@ const useStyles = makeStyles((theme) => ({
       padding: 3
     },
     "& .MuiBadge-anchorOriginTopRightRectangle": {
-      transform: "scale(1) translate(0%, -40%)",
+      transform: "scale(1) translate(120%, -0%)",
     },
 
   }
@@ -373,22 +373,22 @@ const useStyles = makeStyles((theme) => ({
           {ticket.status !== "pending" ?
             <Avatar
               style={{
-                marginTop: "-20px",
-                marginLeft: "-3px",
-                width: "55px",
-                height: "55px",
-                borderRadius: "10%",
+                marginTop: "-17px",
+                marginLeft: "-7px",
+                width: "64px",
+                height: "62px",
+                borderRadius: "5%",
               }}
               src={ticket?.contact?.profilePicUrl}
             />
             :
             <Avatar
               style={{
-                marginTop: "-30px",
-                marginLeft: "0px",
-                width: "50px",
-                height: "50px",
-                borderRadius: "10%",
+                marginTop: "-35px",
+                marginLeft: "-8px",
+                width: "64px",
+                height: "49px",
+                borderRadius: "5%",
               }}
               src={ticket?.contact?.profilePicUrl}
             />
