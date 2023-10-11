@@ -490,7 +490,7 @@ const useStyles = makeStyles((theme) => ({
           {ticket.status === "pending" && (
             <ButtonWithSpinner
               //color="primary"
-              style={{ backgroundColor: 'green', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '209px', fontSize: '0.6rem' }}
+              style={{ backgroundColor: 'green', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '295px', fontSize: '0.6rem' }}
               variant="contained"
               className={classes.acceptButton}
               size="small"
@@ -505,7 +505,7 @@ const useStyles = makeStyles((theme) => ({
           {(ticket.status !== "closed") && (
             <ButtonWithSpinner
               //color="primary"
-              style={{ backgroundColor: 'red', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '280px', fontSize: '0.6rem' }}
+              style={{ backgroundColor: 'red', color: 'white', padding: '0px', bottom: '50px', borderRadius: '50px', left: '220px', fontSize: '0.6rem' }}
               variant="contained"
               className={classes.acceptButton}
               size="small"
@@ -519,7 +519,7 @@ const useStyles = makeStyles((theme) => ({
           {(ticket.status === "closed") && (
             <ButtonWithSpinner
               //color="primary"
-              style={{ backgroundColor: 'red', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '209px', fontSize: '0.6rem' }}
+              style={{ backgroundColor: 'red', color: 'white', padding: '0px', bottom: '50px', borderRadius: '50px', left: '220px', fontSize: '0.6rem' }}
               variant="contained"
               className={classes.acceptButton}
               size="small"
