@@ -178,7 +178,7 @@ const useStyles = makeStyles((theme) => ({
       padding: 3
     },
     "& .MuiBadge-anchorOriginTopRightRectangle": {
-      transform: "scale(1) translate(120%, -0%)",
+      transform: "scale(1) translate(0%, -40%)",
     },
 
   }
@@ -373,22 +373,22 @@ const useStyles = makeStyles((theme) => ({
           {ticket.status !== "pending" ?
             <Avatar
               style={{
-                marginTop: "-17px",
-                marginLeft: "-7px",
-                width: "64px",
-                height: "62px",
-                borderRadius: "5%",
+                marginTop: "3px",
+                marginLeft: "-8px",
+                width: "60px",
+                height: "60px",
+                borderRadius: "50%",
               }}
               src={ticket?.contact?.profilePicUrl}
             />
             :
             <Avatar
               style={{
-                marginTop: "-35px",
+                marginTop: "3px",
                 marginLeft: "-8px",
-                width: "64px",
-                height: "49px",
-                borderRadius: "5%",
+                width: "60px",
+                height: "60px",
+                borderRadius: "50%",
               }}
               src={ticket?.contact?.profilePicUrl}
             />
@@ -412,9 +412,9 @@ const useStyles = makeStyles((theme) => ({
                       onClick={() => setOpenTicketMessageDialog(true)}
                       fontSize="small"
                       style={{
-                        color: blue[700],
-                        cursor: "pointer",
-                        marginLeft: 10,
+                        color: '#fea800',
+                        cursor: 'pointer',
+                        marginLeft: '10px',
                         verticalAlign: "middle"
                       }}
                     />
@@ -490,7 +490,7 @@ const useStyles = makeStyles((theme) => ({
           {ticket.status === "pending" && (
             <ButtonWithSpinner
               //color="primary"
-              style={{ backgroundColor: 'green', color: 'white', padding: '0px', bottom: '17px', borderRadius: '0px', left: '8px', fontSize: '0.6rem' }}
+              style={{ backgroundColor: 'green', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '209px', fontSize: '0.6rem' }}
               variant="contained"
               className={classes.acceptButton}
               size="small"
@@ -505,7 +505,7 @@ const useStyles = makeStyles((theme) => ({
           {(ticket.status !== "closed") && (
             <ButtonWithSpinner
               //color="primary"
-              style={{ backgroundColor: 'red', color: 'white', padding: '0px', bottom: '0px', borderRadius: '0px', left: '8px', fontSize: '0.6rem' }}
+              style={{ backgroundColor: 'red', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '280px', fontSize: '0.6rem' }}
               variant="contained"
               className={classes.acceptButton}
               size="small"
@@ -519,7 +519,7 @@ const useStyles = makeStyles((theme) => ({
           {(ticket.status === "closed") && (
             <ButtonWithSpinner
               //color="primary"
-              style={{ backgroundColor: 'red', color: 'white', padding: '0px', bottom: '0px', borderRadius: '0px', left: '8px', fontSize: '0.6rem' }}
+              style={{ backgroundColor: 'red', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '209px', fontSize: '0.6rem' }}
               variant="contained"
               className={classes.acceptButton}
               size="small"
