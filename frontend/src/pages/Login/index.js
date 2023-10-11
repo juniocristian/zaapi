@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
 		width: "100vw",
 		height: "100vh",
 		//background: "linear-gradient(to right, #76EE00 , #76EE00 , #458B00)",
-		backgroundImage: "url(https://siteconnect.com.br/wp-content/uploads/2023/06/Foto-Branca-1920-x-1080.webp)",
+		backgroundImage: "url(https://relampagoweb.com.br/img/background.webp)",
 		backgroundRepeat: "no-repeat",
 		backgroundSize: "100% 100%",
 		backgroundPosition: "center",
@@ -51,7 +51,7 @@ const useStyles = makeStyles(theme => ({
 		flexDirection: "column",
 		alignItems: "center",
 		padding: "55px 30px",
-		borderRadius: "12.5px",
+		borderRadius: "5px",
 	},
 	avatar: {
 		margin: theme.spacing(1),  
