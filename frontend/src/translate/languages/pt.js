@@ -5,7 +5,7 @@ const messages = {
         title: "Cadastre-se",
         toasts: {
           success: "Usuário criado com sucesso!",
-          fail: "Erro ao criar usuário. Verifique os dados informados.",
+           fail: "Erro ao criar usuário. Verifique os dados informados.",
         },
         form: {
           name: "Nome",
@@ -14,18 +14,18 @@ const messages = {
         },
         buttons: {
           submit: "Cadastrar",
-          
+          login: "Já tem um plano ativo? Login.",
         },
       },
       login: {
-        
+        title: "Login",
         form: {
           email: "Email",
           password: "Senha",
         },
         buttons: {
           submit: "Entrar",
-          
+          register: "Contrate um plano agora mesmo.",
         },
       },
       companies: {
