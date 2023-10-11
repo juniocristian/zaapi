@@ -14,18 +14,18 @@ const messages = {
         },
         buttons: {
           submit: "Cadastrar",
-          login: "Possui conta? Login.",
+          
         },
       },
       login: {
-        title: "Já possui conta? Login!",
+        
         form: {
           email: "Email",
           password: "Senha",
         },
         buttons: {
           submit: "Entrar",
-          register: "Ainda não possui conta? Cadastre-se!",
+          
         },
       },
       companies: {
