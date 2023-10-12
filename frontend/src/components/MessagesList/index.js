@@ -75,8 +75,8 @@ const useStyles = makeStyles((theme) => ({
     "&:hover #messageActionsButton": {
       display: "flex",
       position: "absolute",
-      top: 0,
-      right: 0,
+      top: 10,
+      right: 16,
     },
 
     whiteSpace: "pre-wrap",
@@ -129,8 +129,8 @@ const useStyles = makeStyles((theme) => ({
     "&:hover #messageActionsButton": {
       display: "flex",
       position: "absolute",
-      top: 0,
-      right: 0,
+      top: 10,
+      right: 16,
     },
 
     whiteSpace: "pre-wrap",
