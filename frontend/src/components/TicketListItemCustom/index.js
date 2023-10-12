@@ -120,7 +120,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   contactLastMessage: {
-    paddingRight: "0%",
+    paddingRight: "173px",
     marginLeft: "0px",
   },
 
