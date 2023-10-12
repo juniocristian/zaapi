@@ -413,10 +413,17 @@ const useStyles = makeStyles((theme) => ({
                       onClick={() => setOpenTicketMessageDialog(true)}
                       fontSize="small"
                       style={{
-                        color: '#2a6a5a',
+                        color: 'rgb(255, 255, 255)',
+						backgroundColor: '#2a6a5a',
                         cursor: 'pointer',
-                        marginLeft: '94px',
-                        verticalAlign: "middle"
+                        padding: '2px',
+                        height: '23px',
+						width: '23px',
+						fontSize: '12px',
+						borderRadius: '50px',
+						right: '159px',
+						 top: '47px',
+						position: 'absolute',
                       }}
                     />
                   </Tooltip>
@@ -491,7 +498,7 @@ const useStyles = makeStyles((theme) => ({
           {ticket.status === "pending" && (
             <ButtonWithSpinner
               //color="primary"
-              style={{ backgroundColor: '#2a6a5a', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '370px', fontSize: '0.6rem' }}
+              style={{ left: '462px', color: 'rgb(255, 255, 255)', backgroundColor: '#2a6a5a', cursor: 'pointer', padding: '2px', height: '23px', width: '23px', fontSize: '12px', borderRadius: '50px', /* right: '28px', */ top: '47px', position: 'absolute' }}
               variant="contained"
               className={classes.acceptButton}
               size="small"
@@ -506,7 +513,7 @@ const useStyles = makeStyles((theme) => ({
           {(ticket.status !== "closed") && (
             <ButtonWithSpinner
               //color="primary"
-              style={{ backgroundColor: '#2a6a5a', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '300px', fontSize: '0.6rem' }}
+              style={{ color: 'rgb(255, 255, 255)', backgroundColor: '#2a6a5a', cursor: 'pointer', padding: '2px', height: '23px', width: '23px', fontSize: '12px', borderRadius: '50px', left: '390px', top: '47px', position: 'absolute' }}
               variant="contained"
               className={classes.acceptButton}
               size="small"
@@ -520,7 +527,7 @@ const useStyles = makeStyles((theme) => ({
           {(ticket.status === "closed") && (
             <ButtonWithSpinner
               //color="primary"
-              style={{ backgroundColor: '#2a6a5a', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '370px', fontSize: '0.6rem' }}
+              style={{ color: 'rgb(255, 255, 255)', backgroundColor: '#2a6a5a', cursor: 'pointer', padding: '2px', height: '23px', width: '23px', fontSize: '12px', borderRadius: '50px', left: '392px', top: '47px', position: 'absolute' }}
               variant="contained"
               className={classes.acceptButton}
               size="small"
