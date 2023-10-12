@@ -3,8 +3,8 @@ import React from "react";
 
 const useStyles = makeStyles(theme => ({
     tag: {
-        padding: "1px 5px",
-        borderRadius: "3px",
+        padding: "3px 5px",
+        borderRadius: "50px",
         fontSize: "0.8em",
         fontWeight: "bold",
         color: "#FFF",

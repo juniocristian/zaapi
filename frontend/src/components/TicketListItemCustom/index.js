@@ -121,7 +121,7 @@ const useStyles = makeStyles((theme) => ({
 
   contactLastMessage: {
     paddingRight: "0%",
-    marginLeft: "5px",
+    marginLeft: "0px",
   },
 
 
@@ -367,7 +367,7 @@ const useStyles = makeStyles((theme) => ({
         })}
       >
         <Tooltip arrow placement="right" title={ticket.queue?.name?.toUpperCase() || "SEM FILA"} >
-          <span style={{ backgroundColor: ticket.queue?.color || "#7C7C7C" }} className={classes.ticketQueueColor}></span>
+          <span style={{ backgroundColor: ticket.queue?.color || "#2a6a5a" }} className={classes.ticketQueueColor}></span>
         </Tooltip>
         <ListItemAvatar>
           {ticket.status !== "pending" ?
@@ -378,6 +378,7 @@ const useStyles = makeStyles((theme) => ({
                 width: "60px",
                 height: "60px",
                 borderRadius: "50%",
+				border: "3px solid #2a6a5a",
               }}
               src={ticket?.contact?.profilePicUrl}
             />
@@ -389,7 +390,7 @@ const useStyles = makeStyles((theme) => ({
                 width: "60px",
                 height: "60px",
                 borderRadius: "50%",
-				border: "2px solid #2a6a5a",
+				border: "3px solid #2a6a5a",
               }}
               src={ticket?.contact?.profilePicUrl}
             />
