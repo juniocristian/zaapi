@@ -94,9 +94,9 @@ export function TagsContainer({ ticket }) {
                             style={{
                                 background: option.color || '#eee',
                                 color: "#FFF",
-                                marginRight: 1,
+                                marginRight: 3,
                                 fontWeight: 600,
-                                borderRadius: 3,
+                                borderRadius: 50,
                                 fontSize: "0.8em",
                                 whiteSpace: "nowrap"
                             }}
