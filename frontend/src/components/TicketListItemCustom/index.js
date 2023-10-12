@@ -48,12 +48,12 @@ const useStyles = makeStyles((theme) => ({
   queueTag: {
     background: "#FCFCFC",
     color: "#000",
-    marginRight: 1,
-    padding: 1,
+    marginRight: 3,
+    padding: 3,
     fontWeight: 'bold',
     paddingLeft: 5,
     paddingRight: 5,
-    borderRadius: 3,
+    borderRadius: 50,
     fontSize: "0.8em",
     whiteSpace: "nowrap"
   },
@@ -83,12 +83,12 @@ const useStyles = makeStyles((theme) => ({
   connectionTag: {
     background: "green",
     color: "#FFF",
-    marginRight: 1,
-    padding: 1,
+    marginRight: 3,
+    padding: 3,
     fontWeight: 'bold',
     paddingLeft: 5,
     paddingRight: 5,
-    borderRadius: 3,
+    borderRadius: 50,
     fontSize: "0.8em",
     whiteSpace: "nowrap"
   },
@@ -166,8 +166,8 @@ const useStyles = makeStyles((theme) => ({
   },
   ticketInfo1: {
     position: "relative",
-    top: 13,
-    right: 0
+    top: 10,
+    right: 16,
   },
   Radiusdot: {
     "& .MuiBadge-badge": {
