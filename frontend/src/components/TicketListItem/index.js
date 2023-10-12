@@ -89,6 +89,7 @@ const useStyles = makeStyles((theme) => ({
   acceptButton: {
     position: "absolute",
     left: "75%",
+	borderRadius: "50px",
   },
 
   ticketQueueColor: {
