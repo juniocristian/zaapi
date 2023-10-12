@@ -389,6 +389,7 @@ const useStyles = makeStyles((theme) => ({
                 width: "60px",
                 height: "60px",
                 borderRadius: "50%",
+				border: "2px solid #2a6a5a",
               }}
               src={ticket?.contact?.profilePicUrl}
             />
@@ -414,7 +415,7 @@ const useStyles = makeStyles((theme) => ({
                       style={{
                         color: '#2a6a5a',
                         cursor: 'pointer',
-                        marginLeft: '10px',
+                        marginLeft: '94px',
                         verticalAlign: "middle"
                       }}
                     />
@@ -490,7 +491,7 @@ const useStyles = makeStyles((theme) => ({
           {ticket.status === "pending" && (
             <ButtonWithSpinner
               //color="primary"
-              style={{ backgroundColor: 'green', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '295px', fontSize: '0.6rem' }}
+              style={{ backgroundColor: '#2a6a5a', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '370px', fontSize: '0.6rem' }}
               variant="contained"
               className={classes.acceptButton}
               size="small"
@@ -505,7 +506,7 @@ const useStyles = makeStyles((theme) => ({
           {(ticket.status !== "closed") && (
             <ButtonWithSpinner
               //color="primary"
-              style={{ backgroundColor: '#2a6a5a', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '219px', fontSize: '0.6rem' }}
+              style={{ backgroundColor: '#2a6a5a', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '300px', fontSize: '0.6rem' }}
               variant="contained"
               className={classes.acceptButton}
               size="small"
@@ -519,7 +520,7 @@ const useStyles = makeStyles((theme) => ({
           {(ticket.status === "closed") && (
             <ButtonWithSpinner
               //color="primary"
-              style={{ backgroundColor: '#2a6a5a', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '219px', fontSize: '0.6rem' }}
+              style={{ backgroundColor: '#2a6a5a', color: 'white', padding: '0px', bottom: '54px', borderRadius: '50px', left: '370px', fontSize: '0.6rem' }}
               variant="contained"
               className={classes.acceptButton}
               size="small"
