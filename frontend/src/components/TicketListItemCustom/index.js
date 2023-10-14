@@ -324,7 +324,7 @@ const useStyles = makeStyles((theme) => ({
             <Tooltip title="Chatbot">
               <AndroidIcon
                 fontSize="small"
-                style={{ color: grey[700], marginRight: 5 }}
+                style={{ color: '#2a6a5a', marginRight: '128px', marginBottom: '21px' }}
               />
             </Tooltip>
           )}
@@ -339,7 +339,7 @@ const useStyles = makeStyles((theme) => ({
             <Tooltip title="Chatbot">
               <AndroidIcon
                 fontSize="small"
-                style={{ color: grey[700], marginRight: 5 }}
+                style={{ color: '#2a6a5a', marginRight: '128px', marginBottom: '21px' }}
               />
             </Tooltip>
           )}
