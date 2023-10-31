@@ -604,7 +604,7 @@ const messages = {
         table: {
           name: "Nome",
           color: "Cor",
-          tickets: "Registros Tagdos",
+          tickets: "Registros de tag",
           actions: "Ações",
         },
         buttons: {
